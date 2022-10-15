@@ -1,0 +1,3 @@
+class ChildStateUpdateController {
+  Function? updateState;
+}

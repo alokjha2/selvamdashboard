@@ -1,0 +1,213 @@
+Date : 2022-05-29 11:55:58
+Directory : /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard
+Total : 158 files,  31990 codes, 588 comments, 2046 blanks, all 34624 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| Dart         |        130 |     31,739 |        526 |      2,011 |     34,276 |
+| HTML         |          1 |        139 |         14 |         13 |        166 |
+| YAML         |          1 |         49 |         44 |         13 |        106 |
+| JSON         |          1 |         23 |          0 |          1 |         24 |
+| XML          |         21 |         21 |          0 |          0 |         21 |
+| Markdown     |          1 |         10 |          0 |          7 |         17 |
+| Shell Script |          3 |          9 |          4 |          1 |         14 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                              | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                 |        158 |     31,990 |        588 |      2,046 |     34,624 |
+| assets                                                                                                                            |         21 |         21 |          0 |          0 |         21 |
+| assets/icons                                                                                                                      |         21 |         21 |          0 |          0 |         21 |
+| lib                                                                                                                               |        130 |     31,739 |        526 |      2,011 |     34,276 |
+| lib/models                                                                                                                        |         23 |      1,578 |          0 |        124 |      1,702 |
+| lib/pages                                                                                                                         |          4 |        435 |         29 |         30 |        494 |
+| lib/services                                                                                                                      |         18 |      3,037 |        104 |        432 |      3,573 |
+| lib/utils                                                                                                                         |          7 |        316 |          3 |         53 |        372 |
+| lib/widgets                                                                                                                       |         76 |     26,275 |        384 |      1,359 |     28,018 |
+| lib/widgets/collection_agent                                                                                                      |          5 |      1,271 |         17 |         66 |      1,354 |
+| lib/widgets/collection_report                                                                                                     |          2 |        844 |          4 |         45 |        893 |
+| lib/widgets/direct_sale                                                                                                           |          3 |      1,505 |         20 |         89 |      1,614 |
+| lib/widgets/driver                                                                                                                |          5 |      1,246 |         16 |         59 |      1,321 |
+| lib/widgets/farm                                                                                                                  |          4 |        874 |          5 |         58 |        937 |
+| lib/widgets/loadman                                                                                                               |          5 |      1,235 |         17 |         56 |      1,308 |
+| lib/widgets/paper_rate                                                                                                            |          2 |        741 |         20 |         32 |        793 |
+| lib/widgets/purchase                                                                                                              |          4 |      1,567 |         97 |         68 |      1,732 |
+| lib/widgets/regions                                                                                                               |          3 |        590 |          1 |         41 |        632 |
+| lib/widgets/reports                                                                                                               |          3 |      1,251 |         19 |         77 |      1,347 |
+| lib/widgets/routes                                                                                                                |          4 |        754 |          2 |         46 |        802 |
+| lib/widgets/sale                                                                                                                  |          6 |      3,565 |         31 |        154 |      3,750 |
+| lib/widgets/shop                                                                                                                  |         11 |      4,603 |         74 |        234 |      4,911 |
+| lib/widgets/shop/payents                                                                                                          |          1 |        368 |          1 |         11 |        380 |
+| lib/widgets/trip                                                                                                                  |          6 |      2,722 |         38 |        163 |      2,923 |
+| lib/widgets/vehicle                                                                                                               |          6 |      1,797 |          2 |         80 |      1,879 |
+| web                                                                                                                               |          2 |        162 |         14 |         14 |        190 |
++-----------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                                                                          | language     | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/README.md                                                       | Markdown     |         10 |          0 |          7 |         17 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/account-cash.svg                                   | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/account-hard-hat.svg                               | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/attendance.svg                                     | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/cash-100.svg                                       | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/cash.svg                                           | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/checkbook.svg                                      | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/driver.svg                                         | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/farm.svg                                           | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/grid.svg                                           | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/list.svg                                           | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/loadman.svg                                        | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/logout.svg                                         | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/map-marker-path.svg                                | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/purchase.svg                                       | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/report.svg                                         | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/route.svg                                          | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/sale.svg                                           | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/shopping.svg                                       | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/store.svg                                          | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/trip.svg                                           | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/assets/icons/vehicle.svg                                        | XML          |          1 |          0 |          0 |          1 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/clean.sh                                                        | Shell Script |          2 |          1 |          1 |          4 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/dev_pub.sh                                                      | Shell Script |          3 |          2 |          0 |          5 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/main.dart                                                   | Dart         |         85 |          6 |         11 |        102 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/additional_amount.dart                               | Dart         |         45 |          0 |          6 |         51 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/attendance.dart                                      | Dart         |         13 |          0 |          2 |         15 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/change_rate_model.dart                               | Dart         |         13 |          0 |          2 |         15 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/collection_agent.dart                                | Dart         |         51 |          0 |          4 |         55 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/direct_sale.dart                                     | Dart         |        102 |          0 |          6 |        108 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/discount.dart                                        | Dart         |         45 |          0 |          6 |         51 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/driver.dart                                          | Dart         |         62 |          0 |          4 |         66 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/expense.dart                                         | Dart         |         50 |          0 |          5 |         55 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/farm.dart                                            | Dart         |         33 |          0 |          5 |         38 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/fuel_expense.dart                                    | Dart         |         62 |          0 |          6 |         68 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/line.dart                                            | Dart         |         33 |          0 |          5 |         38 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/loadman.dart                                         | Dart         |         59 |          0 |          4 |         63 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/paper_rate.dart                                      | Dart         |         30 |          0 |          6 |         36 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/purchase_order.dart                                  | Dart         |        128 |          0 |          6 |        134 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/region.dart                                          | Dart         |         23 |          0 |          6 |         29 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/return_model.dart                                    | Dart         |        134 |          0 |          7 |        141 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/route.dart                                           | Dart         |         34 |          0 |          6 |         40 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/sale_order.dart                                      | Dart         |        180 |          0 |          6 |        186 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/shop.dart                                            | Dart         |        133 |          0 |          7 |        140 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/shop_payment.dart                                    | Dart         |        113 |          0 |          8 |        121 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/trip.dart                                            | Dart         |        136 |          0 |          7 |        143 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/vehicle.dart                                         | Dart         |         53 |          0 |          5 |         58 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/models/vehicle_service.dart                                 | Dart         |         46 |          0 |          5 |         51 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/pages/error_page.dart                                       | Dart         |         14 |          0 |          3 |         17 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/pages/home_page.dart                                        | Dart         |        194 |         27 |         13 |        234 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/pages/login_page.dart                                       | Dart         |        130 |          2 |          9 |        141 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/pages/overview.dart                                         | Dart         |         97 |          0 |          5 |        102 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/routes.dart                                                 | Dart         |         13 |          0 |          2 |         15 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/auth.dart                                          | Dart         |         56 |          0 |          6 |         62 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/collection_agent_db.dart                           | Dart         |        234 |          3 |         25 |        262 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/database.dart                                      | Dart         |        143 |          0 |         24 |        167 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/direct_sale_db.dart                                | Dart         |        368 |         30 |         72 |        470 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/driver_db.dart                                     | Dart         |        207 |          4 |         19 |        230 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/expenses_db.dart                                   | Dart         |         75 |          0 |          9 |         84 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/farm_db.dart                                       | Dart         |         81 |          0 |         10 |         91 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/loadman_db.dart                                    | Dart         |        142 |          4 |         13 |        159 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/network.dart                                       | Dart         |          2 |          6 |          1 |          9 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/purchase_db.dart                                   | Dart         |        101 |          1 |         15 |        117 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/region_db.dart                                     | Dart         |         83 |         16 |         11 |        110 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/report_db.dart                                     | Dart         |        340 |          0 |         58 |        398 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/routes_db.dart                                     | Dart         |        170 |          4 |         25 |        199 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/sale_db.dart                                       | Dart         |        275 |         14 |         47 |        336 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/shops_db.dart                                      | Dart         |        438 |         15 |         51 |        504 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/storage.dart                                       | Dart         |         28 |          0 |          6 |         34 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/trip_db.dart                                       | Dart         |        140 |          3 |         21 |        164 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/services/vehicle_db.dart                                    | Dart         |        154 |          4 |         19 |        177 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/child_callback_controller.dart                        | Dart         |          3 |          0 |          1 |          4 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/colors.dart                                           | Dart         |         27 |          0 |          3 |         30 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/constants.dart                                        | Dart         |          1 |          0 |          1 |          2 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/flags.dart                                            | Dart         |         60 |          0 |         15 |         75 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/masked_text_formmatter.dart                           | Dart         |         67 |          0 |         11 |         78 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/style.dart                                            | Dart         |         64 |          0 |          3 |         67 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/utils/utils.dart                                            | Dart         |         94 |          3 |         19 |        116 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_agent/collection_agent_data_table.dart   | Dart         |        320 |         14 |         22 |        356 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_agent/collection_agent_details.dart      | Dart         |        272 |          1 |         10 |        283 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_agent/create_collection_agent.dart       | Dart         |        245 |          1 |         13 |        259 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_agent/edit_driver.dart                   | Dart         |        245 |          1 |          8 |        254 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_agent/manage_collection_agent_page.dart  | Dart         |        189 |          0 |         13 |        202 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_report/collection_report_data_table.dart | Dart         |        195 |          1 |         20 |        216 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/collection_report/collection_report_page.dart       | Dart         |        649 |          3 |         25 |        677 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/custom_button.dart                                  | Dart         |        209 |          0 |          9 |        218 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/custom_input.dart                                   | Dart         |        385 |          0 |          8 |        393 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/delivery_input_widget.dart                          | Dart         |        338 |          1 |         28 |        367 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/direct_sale/chicken_type_options.dart               | Dart         |         12 |          0 |          4 |         16 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/direct_sale/create_direct_sale_order.dart           | Dart         |      1,185 |         19 |         60 |      1,264 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/direct_sale/direct_sale_order_data_table.dart       | Dart         |        308 |          1 |         25 |        334 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/driver/create_driver.dart                           | Dart         |        223 |          0 |          6 |        229 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/driver/driver_data_table.dart                       | Dart         |        319 |         13 |         22 |        354 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/driver/driver_details.dart                          | Dart         |        271 |          1 |         10 |        282 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/driver/edit_driver.dart                             | Dart         |        245 |          1 |          8 |        254 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/driver/manage_driver_page.dart                      | Dart         |        188 |          1 |         13 |        202 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/expense_list_widget.dart                            | Dart         |        388 |          2 |         14 |        404 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/farm/create_farm.dart                               | Dart         |        233 |          2 |         16 |        251 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/farm/farm_data_table.dart                           | Dart         |        339 |          0 |         24 |        363 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/farm/farm_detail.dart                               | Dart         |        123 |          1 |          8 |        132 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/farm/manage_farm_page.dart                          | Dart         |        179 |          2 |         10 |        191 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/full_screen_imageviewer.dart                        | Dart         |         78 |          0 |          7 |         85 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/loadman/create_loadman.dart                         | Dart         |        222 |          0 |          6 |        228 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/loadman/edit_loadman.dart                           | Dart         |        244 |          1 |          8 |        253 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/loadman/loadman_data_table.dart                     | Dart         |        321 |         13 |         22 |        356 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/loadman/loadman_details.dart                        | Dart         |        259 |          1 |          7 |        267 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/loadman/manage_loadman_page.dart                    | Dart         |        189 |          2 |         13 |        204 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/paper_rate/paper_rate_change_table.dart             | Dart         |        412 |         18 |         15 |        445 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/paper_rate/paper_rate_widget.dart                   | Dart         |        329 |          2 |         17 |        348 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/purchase/create_purchase_order.dart                 | Dart         |        432 |          0 |         16 |        448 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/purchase/manage_purchase_order.dart                 | Dart         |        484 |          2 |         14 |        500 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/purchase/purchase_detail_widget.dart                | Dart         |        328 |         95 |         11 |        434 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/purchase/purchase_order_data_table.dart             | Dart         |        323 |          0 |         27 |        350 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/regions/create_region.dart                          | Dart         |        160 |          0 |         10 |        170 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/regions/region_data_table.dart                      | Dart         |        285 |          0 |         22 |        307 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/regions/regions_list.dart                           | Dart         |        145 |          1 |          9 |        155 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/reports/pdfDownload.dart                            | Dart         |          9 |          0 |          2 |         11 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/reports/report_data_table.dart                      | Dart         |        179 |          0 |         23 |        202 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/reports/report_list_page.dart                       | Dart         |      1,063 |         19 |         52 |      1,134 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/routes/create_route.dart                            | Dart         |        151 |          0 |          6 |        157 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/routes/edit_route.dart                              | Dart         |        159 |          1 |          8 |        168 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/routes/manage_route_page.dart                       | Dart         |        157 |          1 |         10 |        168 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/routes/route_data_table.dart                        | Dart         |        287 |          0 |         22 |        309 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sale/complete_sale_widget.dart                      | Dart         |      1,174 |         13 |         60 |      1,247 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sale/create_sale_order.dart                         | Dart         |        538 |          3 |         23 |        564 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sale/manage_sale_order_page.dart                    | Dart         |        639 |          7 |         20 |        666 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sale/sale_detail_widget.dart                        | Dart         |        763 |          8 |         17 |        788 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sale/sale_order_data_table.dart                     | Dart         |        348 |          0 |         26 |        374 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sale/sale_request_list_dialog.dart                  | Dart         |        103 |          0 |          8 |        111 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/add_additional_amount.dart                     | Dart         |        144 |          1 |          9 |        154 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/add_shop_payment.dart                          | Dart         |        640 |         16 |         33 |        689 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/create_shop.dart                               | Dart         |      1,041 |          5 |         35 |      1,081 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/discount_dialog.dart                           | Dart         |        140 |          1 |          9 |        150 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/display_shop_payment.dart                      | Dart         |        382 |          6 |         24 |        412 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/manage_shops_page.dart                         | Dart         |        292 |          1 |         15 |        308 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/notes_dialog.dart                              | Dart         |        149 |          2 |          9 |        160 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/payents/payment_detail.dart                    | Dart         |        368 |          1 |         11 |        380 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/shop_data_table.dart                           | Dart         |        481 |         25 |         27 |        533 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/shop_details_widget.dart                       | Dart         |        302 |          2 |         10 |        314 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/shop/shop_order_payment_history_page.dart           | Dart         |        664 |         14 |         52 |        730 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/sidebar.dart                                        | Dart         |        207 |          5 |         13 |        225 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/topappbar.dart                                      | Dart         |        105 |         13 |         12 |        130 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/trip/create_trip.dart                               | Dart         |        346 |          3 |         17 |        366 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/trip/end_trip_page.dart                             | Dart         |        763 |         18 |         40 |        821 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/trip/manage_trips_page.dart                         | Dart         |        292 |          0 |         18 |        310 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/trip/trip_data_table.dart                           | Dart         |        334 |         10 |         23 |        367 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/trip/trip_delivery_table.dart                       | Dart         |        187 |          0 |         13 |        200 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/trip/trip_details.dart                              | Dart         |        800 |          7 |         52 |        859 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/vehicle/create_service_due.dart                     | Dart         |        257 |          0 |          9 |        266 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/vehicle/create_vehicle.dart                         | Dart         |        156 |          0 |          7 |        163 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/vehicle/edit_service_due.dart                       | Dart         |        269 |          1 |         10 |        280 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/vehicle/manage_vehicle_page.dart                    | Dart         |        163 |          1 |         12 |        176 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/vehicle/vehicle_data_table.dart                     | Dart         |        321 |          0 |         22 |        343 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/lib/widgets/vehicle/vehicle_details_page.dart                   | Dart         |        631 |          0 |         20 |        651 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/prod_pub.sh                                                     | Shell Script |          4 |          1 |          0 |          5 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/pubspec.yaml                                                    | YAML         |         49 |         44 |         13 |        106 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/web/index.html                                                  | HTML         |        139 |         14 |         13 |        166 |
+| /Users/soorya/Documents/projects/selvam-broilers/selvam_dashboard/web/manifest.json                                               | JSON         |         23 |          0 |          1 |         24 |
+| Total                                                                                                                             |              |     31,990 |        588 |      2,046 |     34,624 |
++-----------------------------------------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
